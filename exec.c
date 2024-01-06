@@ -96,7 +96,7 @@ void set_pcdir(const char *argv0)
 {
 	if (argv0 == NULL || argv0[0] == '\0')
 	{
-		pc_dir = g_strdup("C:\\pc");
+		pc_dir = g_strdup("C:\\PURE_C");
 		pc_bindir = pc_dir;
 	} else
 	{
